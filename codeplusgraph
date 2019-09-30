@@ -1,0 +1,14 @@
+Clustering before forecasting has became common trend now-a-days.
+
+This small document tries to demonstrate quickly how, an kohenon clustering and som mapping, helps us in identifying different time series,
+in the given bulk data which can of different Store Keeping Unit (SKU) sales or of different store sales itselfs.
+
+Suppose, we have received >100 store sales data. Do you assume all store sales behave similarly, if it is not, then,
+clustering sales at different stores gives us distinct stores they are not same.
+
+Pragamatically, we if you Kohonen approach either in R or Python, we can get SOM graph attached separately, which tell my stores can are
+grouped into four (4) which are distinct by their sales.
+
+Further, if I look at the sales pattern of two different store (graph attached separately), you will observe no where both are similar.
+
+Thus, clustering helps us in front, how to go about forecasting for such distinct stores.
