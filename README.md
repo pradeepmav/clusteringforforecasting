@@ -1,3 +1,3 @@
 # clusteringforforecasting
 
-Discussion and graphs aroung clustering for forecasting for larger data
+Discussion and graphs aroung clustering for forecasting for SKU level data
